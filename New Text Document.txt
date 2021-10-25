@@ -1,0 +1,32 @@
+[10:00 pm, 13/08/2021] Web Devloper Santosh: Session--Message-Converter
+----------------------------
+How Java Object Converted into json?
+
+-> to convert java object to json Message Converter internally usage
+    Jackson Api
+	
+-> Jackson is a third party api which is available in spring boot.
+-> Messaget converter usage internally.
+->Using jackon we convert Object to json and Json to Object.
+============================================================
+			<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+=======================================================
+		public class CovertObjectToJson{
+		
+		public static void main(String args[])
+		{
+		
+		Teacher t=new Teacher(1,"Santosh","santosh@gmail.com");		
+		ObjectMapper mapper=new ObjectMapper();			
+		String output=	mapper.writerWithDefaultPrettyPrinter();
+					.writeValuesAsString(t);
+		Syso(output);
+		
+		
+		}
+		}
+[10:06 pm, 13/08/2021] Web Devloper Santosh: https://www.youtube.com/watch?v=lK3VmL6LVMQ&feature=youtu.be
+[10:06 pm, 13/08/2021] Web Devloper Santosh: https://studio.youtube.com/video/50VrvTZ3hc4/edit

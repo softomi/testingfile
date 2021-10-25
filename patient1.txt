@@ -1,0 +1,16 @@
+{
+  
+      "patientMRN": 101,
+      "firstName": "Test",
+      "middleName": "R",
+      "lastName": "Test",
+      "gender": "M",
+      "dob": 17-07-1999,
+      "contact": 996720080,
+      "address": "Ghansoli",
+      "note": test,
+   
+      "city": "NEW ",
+      "state": "MH",
+      "zipCode": 400701
+    }

@@ -1,0 +1,11 @@
+{
+  "id":1,
+  "firstName": "Dinesh",
+  "lastName": "Kumar",
+  "physicianExternalId": "",
+  "npi": "6543210987",
+  "contact": "",
+  "taxId": "",
+  "address": "123, ABC, XYZ, 12345",
+  "enrolled": true
+}
